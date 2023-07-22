@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+    padding: 0;    
+    width: 100%;
+    max-width: 1280px;
+    cursor: none;
+    background-image: url("../img/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jerry-image{
+    position: absolute;
+    z-index: 2;
+}
+
+.tom-cursor{
+    z-index: -1;
+}
+
+#speed_select{
+    z-index: 3;
+    width: 180px;
+    height: 40px;
+    margin-top: 120px;
+    font-size: 24px;
+}
