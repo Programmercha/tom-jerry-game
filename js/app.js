@@ -79,7 +79,9 @@ document.addEventListener('click', (e) =>{
     }
 })  
 changeSpeed.addEventListener('mouseenter', () =>{
-    document.style = `
-    cursor: default;
-    `
+    tomCursor.style.display = 'none'
+})
+
+changeSpeed.addEventListener('mouseleave', () =>{
+    tomCursor.style.display = 'block'
 })
