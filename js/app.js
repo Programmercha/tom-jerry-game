@@ -78,7 +78,7 @@ document.addEventListener('click', (e) =>{
         showScore.textContent = `Your score: ${result}`
     }
 })  
-changeSpeed.addEventListener("mauseenter", () =>{
+changeSpeed.addEventListener('mouseenter', () =>{
     document.style = `
     cursor: default;
     `
